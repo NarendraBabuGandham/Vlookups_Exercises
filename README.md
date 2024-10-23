@@ -69,15 +69,15 @@ In both the name-based and ID-based tables, the VLOOKUP function has been used t
 
 `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
 
- - lookup_value: This is the value used to search for corresponding data (e.g., name or ID).
+ - **lookup_value:** This is the value used to search for corresponding data (e.g., name or ID).
 
-- table_array: This represents the range of the main data table (e.g., A2:F8 for the raw data).
+- **table_array:** This represents the range of the main data table (e.g., A2:F8 for the raw data).
 
-**col_index_num:** The column index number of the data you want to retrieve (e.g., 2 for "Id", 6 for "Project").
+- **col_index_num:** The column index number of the data you want to retrieve (e.g., 2 for "Id", 6 for "Project").
 
-**range_lookup:** A Boolean value (FALSE ensures an exact match).
+- **range_lookup:** A Boolean value (FALSE ensures an exact match).
 
-**Application of VLOOKUP:**
+- **Application of VLOOKUP:**
 
 In the **Name-Based Table**, the employee's name is used as the lookup_value.
 
