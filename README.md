@@ -38,6 +38,10 @@ For each row in the second table, the VLOOKUP function searches for the correspo
 
 
 
+
+
+
+
 # Sheet-2 Overview
 This dataset is part of a multi-sheet workbook where Sheet 2 contains raw data for employees and projects, and subsequent tables are populated using VLOOKUP to retrieve specific data points. The dataset includes information such as employee IDs, their performance across multiple terms, and the projects they are assigned to.
 
