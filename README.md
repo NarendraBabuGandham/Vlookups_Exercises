@@ -13,7 +13,28 @@ This table contains the full list of employees and their details, including thei
 
 ### Filtered Table (VLOOKUP Results):
 		
-![image](https://github.com/user-attachments/assets/37c52f01-027e-4387-b12f-4a79a956c7eb)
-		
 
+![image](https://github.com/user-attachments/assets/0840809b-ceb5-4017-8c39-497e786524a9)
+
+	
 This section uses the VLOOKUP function to retrieve specific rows of data from the main table, based on the first names of certain employees.
+
+## Instructions
+
+**VLOOKUP Formula Used:**
+
+For each row in the second table, the VLOOKUP function searches for the corresponding data from the first table using the first name as the lookup value. The formula is applied as follows:
+
+`=VLOOKUP(A2, OriginalTableRange, ColumnIndex, FALSE)`
+
+
+## Use Cases
+
+**Data Retrieval:** Quickly retrieve employee details from a larger dataset using VLOOKUP.
+**Dynamic Data Management:** Automatically update employee information in the second table when the original data changes.
+**Reporting:** Filter and present specific employee details for reporting or analysis.
+
+
+
+
+
