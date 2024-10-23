@@ -4,10 +4,16 @@ This dataset contains information about employees, including their first name, l
 
 ## Structure
 
-### Main Table (Original Data):
+### Main Table (Original DataFirst Name	Last Name	Company	Experience
+
+![image](https://github.com/user-attachments/assets/760488bb-c69e-4547-b20c-c96f34ce66a3)
+):
 
 This table contains the full list of employees and their details, including their first name, last name, company, and years of experience.
 
 ### Filtered Table (VLOOKUP Results):
+		
+![image](https://github.com/user-attachments/assets/37c52f01-027e-4387-b12f-4a79a956c7eb)
+		
 
 This section uses the VLOOKUP function to retrieve specific rows of data from the main table, based on the first names of certain employees.
