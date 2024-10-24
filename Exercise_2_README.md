@@ -31,3 +31,12 @@ To fill in the Cuisine column in the second table, use the VLOOKUP function to l
 - 2: Refers to the column index for Cuisine in the first table.
 - FALSE: Ensures an exact match for the restaurant name
 
+#### Example of VLOOKUP Formula for Visit Date:
+
+`=VLOOKUP(A2, $A$2:$C$7, 3, FALSE)`
+
+- A2: Refers to the restaurant name in the second table.
+- $A$2:$C$7: Refers to the range of the first table (restaurants, cuisine, and visit dates).
+- 3: Refers to the column index for Visit Date in the first table.
+
+
