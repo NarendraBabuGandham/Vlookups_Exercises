@@ -66,7 +66,7 @@ The first table contains a list of restaurants with their area pincodes, cuisine
 
 Use the VLOOKUP function to look up the restaurant name in the first table and retrieve the corresponding Cuisine and Visit Date.
 
-![image](https://github.com/user-attachments/assets/2a747e60-d538-4656-99bf-896c9515166a)
+![image](https://github.com/user-attachments/assets/fa956bb2-1381-4949-8cbf-478bb023068d)
 
 #### Example of VLOOKUP Formula for Cuisine
 
@@ -91,6 +91,21 @@ Use the VLOOKUP function to look up the restaurant name in the first table and r
 ### Apply VLOOKUP to Fetch Cuisine:
 
 Use the VLOOKUP function to look up the restaurant name in the first table and retrieve the corresponding Cuisine.
+
+![image](https://github.com/user-attachments/assets/31428484-d379-4dc1-bd55-cd3d2f0cb56c)
+
+#### Example of VLOOKUP Formula for Cuisine:
+
+`=VLOOKUP(B2, $B$2:$D$8, 2, FALSE)`
+
+- B2: Refers to the restaurant name in the third table.
+- $B$2:$D$8: Refers to the range of columns (Restaurant, Cuisine, Visit Date) in the first table.
+- 2: Refers to the column index for Cuisine in the first table.
+- FALSE: Ensures an exact match for the restaurant name.
+
+  
+
+
 
 
 
