@@ -22,7 +22,7 @@ To fill in the Cuisine column in the second table, use the VLOOKUP function to l
 
 ![image](https://github.com/user-attachments/assets/d9d86238-6eb4-41ce-9a6c-cf27652c3a9f)
 
-#### Example of VLOOKUP Formula:
+#### Example of VLOOKUP Formula for Restaurants:
 
 `=VLOOKUP(A2, $A$2:$C$7, 2, FALSE)`
 
